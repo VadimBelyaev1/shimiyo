@@ -5,104 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" type="text/css" rel="stylesheet">
-    <link href = "fonts/Value Sans Pro/stylesheet.css" rel = "stylesheet" type = "text/css" />
-    <link href = "fonts/Rimma_sans/stylesheet.css" rel = "stylesheet" type = "text/css" />
     <title>SHIMIYO</title>
 </head>
-<body>
 
-<section class="top">
-    <header class="header"> 
-        <div class="container">
-        <div class="header-line">
-            <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
-            <label for="nav-toggle" class="nav-toggle" onclick></label>
-            <nav class="nav">
-                <div class="nav-menu" id="nav-menu">
-                    <input type="checkbox" id="nav-toggle__slide" class="nav-toggle__slide" hidden>
-                    <label for="nav-toggle__slide" class="nav-toggle__slide" onclick></label>
-                    <h2 class="nav-logo">меню</h2>
-                        <ul class="menu__3">
-                            <li><a href="#">Новинки</a></li>
-                            <li><a href="#">Роллы</a></li>
-                            <li><a href="#">Напитки</a></li>
-                            <li><a href="#">Десерты</a></li>
-                            <li><a href="#">Закуски</a></li>
-                            <li><a href="#">Наборы</a></li>
-                            <li><a href="#">Поке и боулы</a></li>
-                            <li><a href="#">Воки</a></li>
-                            <li><a href="#">Авторское</a></li>
-                            <li><a href="#">Онигири</a></li>
-                            <li><a href="#">Топпинги</a></li>
-                        </ul>
-                 </div>
-                <div class="nav__info">
-                    <ul class="nav__info-items">
-                        <li><a href="#">вход <span> -</span></a></li>
-                        <li><a href="#">доставка <span> -</span></a></li>
-                        <li><a href="#">акции <span> -</span></a></li>
-                        <li><a href="#">отзывы <span> -</span></a></li>
-                        <li><a href="#">связаться с нами <span>-</span></a></li>
-                        <li><a href="#">о нас <span> -</span></a></li>
-                        <li><a href="#">вакансии <span> -</span></a></li>
-                    </ul>
-                    
-                    <div class="nav__info-items_second">
-                        <div class="nav__info-logo">
-                            <img src="img/nav-logo.svg" alt="">
+
+<body>
+    <header>
+        <div class="header_top">
+            <div class="header_top_content container">
+                <div class="header_top_content_left">
+                    <button id="nav-toggle" class="nav-toggle">
+                        <img src="src/img/menu-outline.svg" alt="menu">
+                    </button>
+                    <nav class="nav">
+                        <div class="nav-menu" id="nav-menu">
+                            <input type="checkbox" id="nav-toggle__slide" class="nav-toggle__slide" hidden>
+                            <label for="nav-toggle__slide" class="nav-toggle__slide" onclick></label>
+                            <h2 class="nav-logo">меню</h2>
+                                <ul class="menu__3">
+                                    <li><a href="#">Новинки</a></li>
+                                    <li><a href="#">Роллы</a></li>
+                                    <li><a href="#">Напитки</a></li>
+                                    <li><a href="#">Десерты</a></li>
+                                    <li><a href="#">Закуски</a></li>
+                                    <li><a href="#">Наборы</a></li>
+                                    <li><a href="#">Поке и боулы</a></li>
+                                    <li><a href="#">Воки</a></li>
+                                    <li><a href="#">Авторское</a></li>
+                                    <li><a href="#">Онигири</a></li>
+                                    <li><a href="#">Топпинги</a></li>
+                                </ul>
+                            </div>
+                        <div class="nav__info">
+                            <ul class="nav__info-items">
+                                <li><a href="#">вход <span> -</span></a></li>
+                                <li><a href="#">доставка <span> -</span></a></li>
+                                <li><a href="#">акции <span> -</span></a></li>
+                                <li><a href="#">отзывы <span> -</span></a></li>
+                                <li><a href="#">связаться с нами <span>-</span></a></li>
+                                <li><a href="#">о нас <span> -</span></a></li>
+                                <li><a href="#">вакансии <span> -</span></a></li>
+                            </ul>
+                            <div class="nav__info-items_second">
+                                <div class="nav__info-logo">
+                                    <img src="img/nav-logo.svg" alt="">
+                                </div>
+                                <div class="nav__info-social">
+                                    <a href="#"><img src="img/instagram-default.svg" alt=""></a>
+                                    <a href="#"><img src="img/WhatsApp-default.svg" alt=""></a>
+                                    <a href="#"><img src="img/telegram-default.svg" alt=""></a>
+                                    <a href="#"><img src="img/vk-default.svg" alt=""></a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="nav__info-social">
-                            <a href="#"><img src="img/instagram-default.svg" alt=""></a>
-                            <a href="#"><img src="img/WhatsApp-default.svg" alt=""></a>
-                            <a href="#"><img src="img/telegram-default.svg" alt=""></a>
-                            <a href="#"><img src="img/vk-default.svg" alt=""></a>
+                    </nav>
+                    <a href="#" class="header-logo"> 
+                            <img src="src/img/logo.svg" alt="logo"> 
+                    </a>   
+                    <a href="tel:78127171919" class="phone">+7 812 717-19-19</a>
+                    <div class="location">
+                        <img src="src/img/location-add-yellow.svg" alt="location-img" class="location-img">
+                        <div class="address">
+                            Укажите адрес
                         </div>
                     </div>
                 </div>
-            </nav>
-            <div class="header-logo">
-                <a href="#"> 
-                     <img src="img/logo.svg" alt="logo"> 
-                </a>
-            </div>
-            <div class="phone">
-                <div class="number">
-                    +7 812 717-19-19 
+                <div class="header_top_content_right">
+                    <div class="shimingi">
+                        <img src="src/img/frame.svg" alt="Шиминги">
+                        <div class="shimingi-text">
+                            Шиминги
+                        </div>
+                    </div>
+                    <div class="shopping">
+                        <img src="src/img/shopping-bag-white.svg" alt="shopping">
+                        <div class="shopping-number">
+                            0
+                        </div>
+                        <div class="shopping-sum">
+                            2 586 ₽
+                        </div>
+                    </div>   
                 </div>
             </div>
-            <div class="address">
-                <div class="address-img">
-                    <img src="img/location-add-yellow.svg" alt="">
-                </div>
-                <div class="address-text">
-                    Укажите адрес
-                </div>
-            </div>
-            <div class="shimingi">
-                <div class="shimingi-img">
-                    <img src="img/frame.svg" alt="">
-                </div>
-                <div class="shimingi-text">
-                    Шиминги
-                </div>
-            </div>
-            <div class="shopping">
-                <div class="shopping-bag">
-                    <img src="img/shopping-bag-white.svg" alt="">
-                </div>
-                <div class="shopping-number">
-                    12
-                </div>
-                <div class="shopping-sum">
-                    2 586 ₽
-                </div>
-            </div>    
+        </div>
         </div>
         <div class="header__second-line">
-            <ul class="menu__1">
+            <ul class="menu__1 container">
                 <li><a href="#">Новинки</a></li>
                 <li><a href="#">Роллы</a>
-                    <ul class="menu__2">
+                    <ul class="menu__2 container">
                         <li><a href="#">классические</a></li>
                         <li><a href="#">опалённые</a></li>
                         <li><a href="#">запечённые</a></li>
@@ -121,1128 +113,1106 @@
                 <li><a href="#">Топпинги</a></li>
             </ul>
         </div>
-    </div>
-    <div class="shopping-line">
-        <div class="shopping__mobile">
-            <div class="shopping-bag">
-                <img src="img/shopping-bag-white.svg" alt="">
-            </div>
-            <div class="shopping-number">
-                12
-            </div>
-            <div class="shopping-basket">
-                Корзина
-            </div>
-            <div class="shopping-sum">
-                2 586 ₽
-            </div>
-        </div>
-    </div>
     </header>
-</section>
  
-<section class="stories">
-    <div class="stories-line">
-        <div class="stories__content">
-           <a href="/"> <img src="img/story.svg" alt=""></a>
+    <nav class="stories">
+        <div class="stories-line">
+            <div class="stories__content">
+            <a href="/"> <img src="src/img/story.svg" alt=""></a>
+            </div>
+            <div class="stories__content">
+                <a href="/"> <img src="src/img/story.svg" alt=""></a>
+            </div>
+            <div class="stories__content">
+                <a href="/"> <img src="src/img/story.svg" alt=""></a>
+            </div>
+            <div class="stories__content">
+                <a href="/"> <img src="src/img/story.svg" alt=""></a>
+            </div>
+            <div class="stories__content">
+                <a href="/"> <img src="src/img/story.svg" alt=""></a>
+            </div>
+            <div class="stories__content">
+                <a href="/"> <img src="src/img/story.svg" alt=""></a>
+            </div>
+            <div class="stories__content">
+                <a href="/"> <img src="src/img/story.svg" alt=""></a>
+            </div>
+            <div class="stories__content">
+                <a href="/"> <img src="src/img/story.svg" alt=""></a>
+            </div>
         </div>
-        <div class="stories__content">
-            <a href="/"> <img src="img/story.svg" alt=""></a>
-        </div>
-        <div class="stories__content">
-            <a href="/"> <img src="img/story.svg" alt=""></a>
-        </div>
-        <div class="stories__content">
-            <a href="/"> <img src="img/story.svg" alt=""></a>
-        </div>
-        <div class="stories__content">
-            <a href="/"> <img src="img/story.svg" alt=""></a>
-        </div>
-        <div class="stories__content">
-            <a href="/"> <img src="img/story.svg" alt=""></a>
-        </div>
-        <div class="stories__content">
-            <a href="/"> <img src="img/story.svg" alt=""></a>
-        </div>
-        <div class="stories__content">
-            <a href="/"> <img src="img/story.svg" alt=""></a>
-        </div>
-    </div>
-</section>
+    </nav>  
 
-<section class="scrolline-rolls">
-    <div class="scrolling__text">
-        <p class="animation-text">РОЛЛЫ</p>
-        <p class="animation-text">РОЛЛЫ</p>
-        <p class="animation-text">РОЛЛЫ</p>
-        <p class="animation-text">РОЛЛЫ</p>
-        <p class="animation-text">РОЛЛЫ</p>
-        <p class="animation-text">РОЛЛЫ</p>
-        <p class="animation-text">РОЛЛЫ</p>
-    </div>
-</section>
-
-<section class="rolls">
-    <div class="card">
-        <h2 class="rolls-title">классические</h2>
-        <div class="card-first_line">
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
+    <main>
+        <div class="scrolline-rolls">
+            <div class="scrolling__text">
+                <p class="animation-text">РОЛЛЫ</p>
+                <p class="animation-text">РОЛЛЫ</p>
+                <p class="animation-text">РОЛЛЫ</p>
+                <p class="animation-text">РОЛЛЫ</p>
+                <p class="animation-text">РОЛЛЫ</p>
+                <p class="animation-text">РОЛЛЫ</p>
+                <p class="animation-text">РОЛЛЫ</p>
             </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
+        </div>
+        <div class="rolls">
+            <div class="card">
+                <h2 class="rolls-title">классические</h2>
+                <div class="card-first_line">
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
+                <div class="card-second_line">
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
+                <h2 class="rolls-title">опаленные</h2>
+                <div class="card-first_line">
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-second_line">
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="card-second_line">
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
+        <div class="scrolline-sushi">
+            <div class="scrolling__text">
+                <p class="animation-text">СУШИ</p>
+                <p class="animation-text">СУШИ</p>
+                <p class="animation-text">СУШИ</p>
+                <p class="animation-text">СУШИ</p>
+                <p class="animation-text">СУШИ</p>
+                <p class="animation-text">СУШИ</p>
+                <p class="animation-text">СУШИ</p>
             </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
+        </div>
+        <div class="sushi">
+            <div class="card">
+                <h2 class="rolls-title">классические</h2>
+                <div class="card-first_line">
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum" id="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
+                <div class="card-second_line">
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
+                <h2 class="rolls-title">опаленные</h2>
+                <div class="card-first_line">
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-second_line">
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <h2 class="rolls-title">опаленные</h2>
-        <div class="card-first_line">
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
+        <div class="scrolline-poke">
+            <div class="scrolling__text">
+                <p class="animation-text">ПОКЕ И БОУЛЫ</p>
+                <p class="animation-text">ПОКЕ И БОУЛЫ</p>
+                <p class="animation-text">ПОКЕ И БОУЛЫ</p>
+                <p class="animation-text">ПОКЕ И БОУЛЫ</p>
+                <p class="animation-text">ПОКЕ И БОУЛЫ</p>
+                <p class="animation-text">ПОКЕ И БОУЛЫ</p>
+                <p class="animation-text">ПОКЕ И БОУЛЫ</p>
             </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
+        </div>
+        <div class="poke">
+            <div class="card">
+                <h2 class="rolls-title">классические</h2>
+                <div class="card-first_line">
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
+                <div class="card-second_line">
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
+                <h2 class="rolls-title">опаленные</h2>
+                <div class="card-first_line">
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-second_line">
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-example">
+                        <div class="card-icons">
+                            <button class="card-icons_hot" href="#"></button>
+                            <button class="card-icons_spicy" href="#"></button>
+                            <button class="card-icons_vegan" href="#"></button>
+                        </div>
+                        <div class="card-img">
+                            <img src="src/img/rolls-img.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-top">
+                                <span class="card-name">Филадельфия люкс</span>
+                                <span class="card-quantity">8шт./350 гр.</span>
+                            </div>
+                            <div class="card-bottom">
+                                <span class="old-sum">10 000 ₽</span>
+                                <button class="new-sum">1 925 ₽</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="card-second_line">
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
+        <div class="about">
+            <div class="container">
+                <div class="about__items">
+                    <ul class="about__info-items">
+                        <li><a href="#">вход <span> -</span></a></li>
+                        <li><a href="#">доставка <span> -</span></a></li>
+                        <li><a href="#">акции <span> -</span></a></li>
+                        <li><a href="#">отзывы <span> -</span></a></li>
+                        <li><a href="#">связаться с нами <span> -</span></a></li>
+                        <li><a href="#">о нас <span> -</span></a></li>
+                        <li><a href="#">вакансии <span> -</span></a></li>
+                    </ul>
                 </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
+                <div class="about__info-items_second">
+                    <div class="about__info-logo">
+                        <img src="src/img/nav-logo.svg" alt="">
                     </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
+                    <div class="about__info-social">
+                        <a class="insta" href="#" ><img src="src/img/instagram-default.svg" alt=""></a>
+                        <a href="#" class="whatsapp"><img src="src/img/WhatsApp-default.svg" alt=""></a>
+                        <a href="#" class="telegram"><img src="src/img/telegram-default.svg" alt=""></a>
+                        <a href="#" class="vk"><img src="src/img/vk-default.svg" alt=""></a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-<section class="scrolline-sushi">
-    <div class="scrolling__text">
-        <p class="animation-text">СУШИ</p>
-        <p class="animation-text">СУШИ</p>
-        <p class="animation-text">СУШИ</p>
-        <p class="animation-text">СУШИ</p>
-        <p class="animation-text">СУШИ</p>
-        <p class="animation-text">СУШИ</p>
-        <p class="animation-text">СУШИ</p>
-    </div>
-</section>
-
-<section class="sushi">
-    <div class="card">
-        <h2 class="rolls-title">классические</h2>
-        <div class="card-first_line">
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card-second_line">
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <h2 class="rolls-title">опаленные</h2>
-        <div class="card-first_line">
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card-second_line">
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="scrolline-poke">
-    <div class="scrolling__text">
-        <p class="animation-text">ПОКЕ И БОУЛЫ</p>
-        <p class="animation-text">ПОКЕ И БОУЛЫ</p>
-        <p class="animation-text">ПОКЕ И БОУЛЫ</p>
-        <p class="animation-text">ПОКЕ И БОУЛЫ</p>
-        <p class="animation-text">ПОКЕ И БОУЛЫ</p>
-        <p class="animation-text">ПОКЕ И БОУЛЫ</p>
-        <p class="animation-text">ПОКЕ И БОУЛЫ</p>
-    </div>
-</section>
-
-<section class="poke">
-    <div class="card">
-        <h2 class="rolls-title">классические</h2>
-        <div class="card-first_line">
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card-second_line">
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <h2 class="rolls-title">опаленные</h2>
-        <div class="card-first_line">
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card-second_line">
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card-example">
-                <div class="card-icons">
-                    <button class="card-icons_hot" href="#"></button>
-                    <button class="card-icons_spicy" href="#"></button>
-                    <button class="card-icons_vegan" href="#"></button>
-                </div>
-                <div class="card-img">
-                    <img src="img/rolls-img.svg" alt="">
-                </div>
-                <div class="card-info">
-                    <div class="card-top">
-                        <span class="card-name">Филадельфия люкс</span>
-                        <span class="card-quantity">8шт./350 гр.</span>
-                    </div>
-                    <div class="card-bottom">
-                        <span class="old-sum">10 000 ₽</span>
-                        <button class="new-sum">1 925 ₽</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="about">
-    <div class="container">
-        <div class="about__items">
-            <ul class="about__info-items">
-                <li><a href="#">вход <span> -</span></a></li>
-                <li><a href="#">доставка <span> -</span></a></li>
-                <li><a href="#">акции <span> -</span></a></li>
-                <li><a href="#">отзывы <span> -</span></a></li>
-                <li><a href="#">связаться с нами <span> -</span></a></li>
-                <li><a href="#">о нас <span> -</span></a></li>
-                <li><a href="#">вакансии <span> -</span></a></li>
-            </ul>
-        </div>
-        <div class="about__info-items_second">
-            <div class="about__info-logo">
-                <img src="img/nav-logo.svg" alt="">
-            </div>
-            <div class="about__info-social">
-                <a href="#"><img src="img/instagram-default.svg" alt=""></a>
-                <a href="#"><img src="img/WhatsApp-default.svg" alt=""></a>
-                <a href="#"><img src="img/telegram-default.svg" alt=""></a>
-                <a href="#"><img src="img/vk-default.svg" alt=""></a>
-            </div>
-        </div>
-    </div>
-</section>
+    </main>
 <footer class="footer">
     <div class="footer-info__first">
     Шимийо &copy; 2022 <p> Политика кофиденциальности</p> <p> Пользовательское соглашение</p>
     </div>
     <div class="footer-info__second">
-        Наш <span>надежный digital</span>-<span>партнер: </span><p><img src="img/sunweb-logo.svg" alt="sunweb-logo"> </p>
+        Наш <span>надежный digital</span>-<span>партнер: </span><p><img src="src/img/sunweb-logo.svg" alt="sunweb-logo"> </p>
     </div>
 </footer>
 
