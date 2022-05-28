@@ -1116,6 +1116,52 @@ body {
         overflow-y: auto;
     }
     
+    .card {
+        margin: 0;
+    }
+
+
+    
+    .card h2 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .card-example {
+        display: flex;
+        width: auto;
+        gap: 16px;
+        height: auto;
+        align-items: baseline;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    .card-top {
+        margin-bottom: 28px;
+        margin-right: 70px;
+    }
+
+    .card-img{
+        width: 136px;
+        margin: 0;
+    }
+
+    .card-name {
+        font-size: 18px;
+        line-height: 18px;
+        color: #274646;
+    }
+
+    .card-img>img {
+        width: 136px;
+        height: 99px;
+    }
+
+    .card-quantity {
+        display: none;
+    }
+
     .about {
         width: 100%;
     }
