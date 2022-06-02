@@ -1,6 +1,6 @@
 let calculate = document.getElementById("shopping-sum");
 let count = document.getElementById("shopping-number");
-calculation = document.getElementById("calculation").innerHTML;
+sum = document.getElementById("calculation").innerHTML;
 
 document.getElementById("new-sum").onclick = function() {
   let countPlus = count.innerHTML;
