@@ -340,12 +340,7 @@ body {
     -moz-transform: translateX(320px);
     transform: translateX(320px);
 }*/
-[id='nav-toggle']:active ~ .header-logo {
-    content: url(src/img/logo-green.svg);
-}
-[id='nav-toggle']:active ~  .nav-toggle::after {
-    content: url(src/img/outline-x.svg);    
-}
+
 [id='nav-toggle']:active ~ .address .address-text {
     color:#006666;
 }
