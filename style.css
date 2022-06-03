@@ -341,28 +341,6 @@ body {
     transform: translateX(320px);
 }*/
 
-[id='nav-toggle']:active ~ .address .address-text {
-    color:#006666;
-}
-[id='nav-toggle']:active ~ .address .address-img {
-    padding-bottom:  3px;
-    content: url(src/img/location-add-green.svg);
-}
-[id='nav-toggle']:active ~ .shopping .shopping-bag {
-    padding-bottom:  3px;
-    content: url(src/img/shopping-bag-green.svg);
-}
-[id='nav-toggle']:active ~ .shopping .shopping-sum {
-    color: #006666;
-}
-[id='nav-toggle']:active ~ .shimingi .shimingi-img {
-    padding-bottom:  3px;
-    content: url(src/img/frame-green.svg);
-} 
-[id='nav-toggle']:after ~ .shimingi .shimingi-text {
-    color: #006666;
-}
-
 .nav-menu {
     box-shadow: inset 0px 4px 12px rgb(0 0 0 / 15%);
 }
